@@ -1,8 +1,11 @@
 import os
 import sys
 import numpy as np
+
 import torch
 import torchvision
+import torch.nn as nn
+import torch.nn.function as F
 
 print(os.getcwd())
 
